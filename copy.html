@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>eBook Receita Fit</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #4caf50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .video {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 720px;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .copy {
+      font-size: 1.2rem;
+      line-height: 1.7;
+      margin-bottom: 40px;
+    }
+
+    .testimonials {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-bottom: 40px;
+    }
+
+    .testimonials h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .testimonial-videos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .testimonial-videos iframe {
+      width: 100%;
+      max-width: 280px;
+      height: 180px;
+    }
+
+    .cta {
+      text-align: center;
+    }
+
+    .cta button {
+      background: #ff5722;
+      color: white;
+      font-size: 1.2rem;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .cta button:hover {
+      background: #e64a19;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    .testimonial-videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.testimonial-videos video {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Transforme Seu Corpo com Receitas Fit!</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="testimonial-videos">
+      <video controls>
+      <source src="videos/video.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeo HTML5.
+    </video>
+    </div>
+
+    <div class="copy">
+      <p>Está cansado de dietas restritivas e receitas sem graça? Conheça o nosso eBook exclusivo com <strong>receitas saudáveis, saborosas e fáceis de preparar</strong>, ideal para quem busca emagrecer com saúde e prazer. Receitas 100% testadas e aprovadas por nutricionistas!</p>
+    </div>
+
+    <div class="testimonials">
+  <h2>Veja o que nossos leitores têm a dizer:</h2>
+  <div class="testimonial-videos">
+    <video controls>
+      <source src="videos/dp1.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeo HTML5.
+    </video>
+    <video controls>
+      <source src="videos/dp2.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeo HTML5.
+    </video>
+    <video controls>
+      <source src="videos/dp3.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeo HTML5.
+    </video>
+  </div>
+</div>
+
+
+    <div class="cta">
+      <button onclick="comprar()">Quero meu eBook agora!</button>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 ReceitaFit. Todos os direitos reservados.
+  </footer>
+
+  <script>
+    function comprar() {
+      window.location.href = "https://pay.kiwify.com.br/qsj5euA";
+    }
+  </script>
+
+</body>
+</html>
